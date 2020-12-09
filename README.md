@@ -1,6 +1,6 @@
 # Exercise 6
 
-This exercise is about the Titanic passengers from last time, used for machine learning purposes with Weka.
+This exercise is about ...
 
 ## Step 1
 
@@ -8,7 +8,3 @@ Please clone this repository onto your local computer. On the command line, you 
 
 
 
-## Step 4
-
-
-If you're happy with a result (or have spent enough time with Weka), copy the classifiers output into a plain text file called `evaluation.txt` and place it in the root folder of the repository. Commit the file to the repository as usual.
