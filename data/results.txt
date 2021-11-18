@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayesMultinomialText -P 0 -M 3.0 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer
+Relation:     imdb-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    5000
+Attributes:   1010
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Dictionary size: 0
+
+The independent frequency of a class
+--------------------------------------
+0	4914.0
+1	88.0
+
+The frequency of a word given the class
+-----------------------------------------
+          0	          1	
+
+
+Time taken to build model: 0.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4913               98.26   %
+Incorrectly Classified Instances        87                1.74   %
+Kappa statistic                          0     
+Mean absolute error                      0.0344
+Root mean squared error                  0.1308
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             5000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,983      1,000    0,991      ?        0,488     0,982     0
+                 0,000    0,000    ?          0,000    ?          ?        0,488     0,017     1
+Weighted Avg.    0,983    0,983    ?          0,983    ?          ?        0,488     0,965     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4913    0 |    a = 0
+   87    0 |    b = 1
